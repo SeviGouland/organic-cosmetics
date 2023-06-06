@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* html, body {
+    height: 100%;
+  } */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@600&family=Quicksand:wght@400;500&family=Roboto+Slab&display=swap');
+
+body {
+    background-image: url("../img/plants.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-1 {
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 3px whitesmoke;
+    background-color: green;
+    border-radius: 16px;
+    opacity: 0.8;
+}
+
+.username-content {
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    width: 65%;
+    height: 35px;
+    
+}
+
+.password-content {
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    width: 65%;
+    height: 35px;
+}
+
+button {
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    width: 65%;
+    height: 30px;
+    cursor: pointer;
+}
+
+h1 {
+    font-family:'QuickSand', sans-serif;
+    color: floralwhite;
+}
+
+.forgot-your-pass > a {
+    color: floralwhite;
+}
+
+.apply {
+    color: floralwhite;
+    font-size: 20px;
+}
