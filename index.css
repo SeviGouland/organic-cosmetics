@@ -1,61 +1,96 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* html, body {
-    height: 100%;
-  } */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@600&family=Quicksand:wght@400;500&family=Roboto+Slab&display=swap');
 
-
-  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@600&family=Quicksand:wght@400;500&family=Roboto+Slab&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
-    background-image: url("../img/plants.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+}
+  
+.container > img {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 .box-1 {
+    width: 100%;
     padding: 50px;
-    margin: 20px;
+    margin: 60px;
+    margin-left: 50px;
     text-align: center;
-    box-shadow: 0 0 10px 3px whitesmoke;
-    background-color: green;
-    border-radius: 16px;
+    border-radius: 50px;
     opacity: 0.8;
 }
 
+.box-2 {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 50%;
+}
+
+::placeholder { 
+    color: black;
+}
+
 .username-content {
-    border: none;
+   border: none;
     text-align: center;
-    border-radius: 15px;
-    width: 65%;
-    height: 35px;
-    
+    border-radius: 100px;
+    width: 350px;
+    height: 40px;
+    background-color: pink;
 }
 
 .password-content {
     border: none;
     text-align: center;
-    border-radius: 15px;
-    width: 65%;
-    height: 35px;
+    border-radius: 100px;
+    width: 350px;
+    height: 40px;
+    background-color: pink;
 }
 
 button {
     border: none;
     text-align: center;
-    border-radius: 15px;
-    width: 65%;
-    height: 30px;
+    border-radius: 100px;
+    width: 350px;
+    height: 40px;
     cursor: pointer;
+    background-color: pink;
 }
 
 h1 {
     font-family:'QuickSand', sans-serif;
-    color: floralwhite;
+    color: black;
+    
 }
 
 .forgot-your-pass > a {
@@ -63,6 +98,12 @@ h1 {
 }
 
 .apply {
-    color: floralwhite;
+    color: black;
     font-size: 20px;
+}
+
+.fab {
+    font-size: 50px;
+    color: palevioletred;
+    margin-right: 5px;
 }
